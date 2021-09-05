@@ -14,18 +14,20 @@ pip install pre-commit
 
 ### 添加插件
 
-```
-# .pre-commit-hooks.yaml
-
+```yaml
+repos:
 - repo: git://github.com/x1ah/code-anti-addiction
+  rev: v1.0.0
   hooks:
       - id: anti-addiction
         args:
-            # 10 点开始，19 点结束
+            # 早上 10 点开始编码，晚上 19 点结束编码
             [-b 10, -e 19]
 ```
 
 ### 提交代码时检查
 
-![image](https://user-images.githubusercontent.com/14919255/132117146-e3f08d18-8805-433c-89f8-bd92b6858fdc.png)
+![image](https://user-images.githubusercontent.com/14919255/132117263-a3a4dc0b-9904-4e50-a7b2-5d73613428f5.png)
+![image](https://user-images.githubusercontent.com/14919255/132117264-eb6f8d60-ec13-41cb-b77d-15200eb1cb46.png)
+
 

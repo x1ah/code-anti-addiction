@@ -1,5 +1,8 @@
+repos:
 - repo: git://github.com/x1ah/code-anti-addiction
+  rev: v1.0.0
   hooks:
       - id: anti-addiction
         args:
-            [-b 10, -e 20]
+            # 早上 10 点开始编码，晚上 19 点结束编码
+            [-b 10, -e 19]
