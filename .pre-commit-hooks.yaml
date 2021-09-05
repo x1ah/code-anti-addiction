@@ -1,0 +1,5 @@
+-   id: anti-addiction
+    name: 'code anti-addiction'
+    entry: anti-addiction.sh
+    language: 'script'
+    description: "code anti-addiction"

@@ -1,0 +1,5 @@
+- repo: git://github.com/x1ah/code-anti-addiction
+  hooks:
+      - id: anti-addiction
+        args:
+            [-b 10, -e 20]
